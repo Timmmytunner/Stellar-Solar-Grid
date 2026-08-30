@@ -1,8 +1,6 @@
 node_modules/
 dist/
 target/
-.env
-.env.local
 .env.*.local
 
 # mkcert-generated certificates (never commit private keys)
@@ -22,7 +20,6 @@ coverage/
 .nyc_output/
 
 # Editor/IDE
-.vscode/
 .idea/
 
 # Build caches
@@ -31,3 +28,7 @@ coverage/
 
 # OS
 Thumbs.db
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
